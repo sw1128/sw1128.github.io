@@ -2,6 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://sw1128.github.io/2022/02/14/data-binding/</loc>
+    
+    <lastmod>2022-02-14</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://sw1128.github.io/2022/02/12/Hello-vue/</loc>
     
     <lastmod>2022-02-14</lastmod>
