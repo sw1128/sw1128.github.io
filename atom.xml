@@ -60,16 +60,16 @@
   </entry>
   
   <entry>
-    <title>认识代码</title>
+    <title>代码块测试</title>
     <link href="https://sw1128.github.io/2022/02/11/First_Code/"/>
     <id>https://sw1128.github.io/2022/02/11/First_Code/</id>
     <published>2022-02-11T09:35:37.000Z</published>
-    <updated>2022-02-11T16:42:24.552Z</updated>
+    <updated>2022-02-14T07:40:39.524Z</updated>
     
     <content type="html"><![CDATA[<figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">printf</span>(<span class="string">&quot;Hello World!&quot;</span>)</span><br><span class="line"><span class="built_in">printf</span>(<span class="string">&quot;Hello World!&quot;</span>)</span><br><span class="line"><span class="built_in">printf</span>(<span class="string">&quot;Hello World!&quot;</span>)</span><br><span class="line"><span class="built_in">printf</span>(<span class="string">&quot;Hello World!&quot;</span>)</span><br><span class="line"><span class="built_in">printf</span>(<span class="string">&quot;Hello World!&quot;</span>)</span><br><span class="line"><span class="built_in">printf</span>(<span class="string">&quot;Hello World!&quot;</span>)</span><br><span class="line"><span class="built_in">printf</span>(<span class="string">&quot;Hello World!&quot;</span>)</span><br><span class="line"><span class="built_in">printf</span>(<span class="string">&quot;Hello World!&quot;</span>)</span><br><span class="line"><span class="built_in">printf</span>(<span class="string">&quot;Hello World!&quot;</span>)</span><br><span class="line"><span class="built_in">printf</span>(<span class="string">&quot;Hello World!&quot;</span>)</span><br><span class="line"><span class="built_in">printf</span>(<span class="string">&quot;Hello World!&quot;</span>)</span><br><span class="line"><span class="built_in">printf</span>(<span class="string">&quot;Hello World!&quot;</span>)</span><br></pre></td></tr></table></figure><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="title class_">Console</span>.<span class="title function_">log</span>(<span class="string">&quot;Hello World!&quot;</span>) <span class="title class_">Console</span>.<span class="title function_">log</span>(<span class="string">&quot;Hello World!&quot;</span>) <span class="title class_">Console</span>.<span class="title function_">log</span>(<span class="string">&quot;Hello World!&quot;</span>) <span class="title class_">Console</span>.<span class="title function_">log</span>(<span class="string">&quot;Hello World!&quot;</span>)</span><br></pre></td></tr></table></figure>]]></content>
     
     
-    <summary type="html">代码块的演示</summary>
+    <summary type="html">这只是一个测试页，不用打开看了</summary>
     
     
     
