@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://sw1128.github.io/2022/02/11/First_Code/</loc>
+    <loc>https://sw1128.github.io/2022/02/12/Hello-vue/</loc>
     
     <lastmod>2022-02-14</lastmod>
     
@@ -20,9 +20,9 @@
   </url>
   
   <url>
-    <loc>https://sw1128.github.io/2022/02/12/Hello-vue/</loc>
+    <loc>https://sw1128.github.io/2022/02/11/First_Code/</loc>
     
-    <lastmod>2022-02-13</lastmod>
+    <lastmod>2022-02-14</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
