@@ -11,6 +11,15 @@
   </url>
   
   <url>
+    <loc>https://sw1128.github.io/2022/02/10/Happy_new_year/</loc>
+    
+    <lastmod>2022-02-14</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://sw1128.github.io/2022/02/14/data-binding/</loc>
     
     <lastmod>2022-02-14</lastmod>
@@ -56,15 +65,6 @@
   </url>
   
   <url>
-    <loc>https://sw1128.github.io/2022/02/10/Happy_new_year/</loc>
-    
-    <lastmod>2022-02-13</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://sw1128.github.io/link/index.html</loc>
     
     <lastmod>2022-02-11</lastmod>
@@ -101,14 +101,14 @@
   </url>
   
   <url>
-    <loc>https://sw1128.github.io/categories/Hexo/</loc>
+    <loc>https://sw1128.github.io/categories/butterfly/</loc>
     <lastmod>2022-02-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://sw1128.github.io/categories/butterfly/</loc>
+    <loc>https://sw1128.github.io/categories/Hexo/</loc>
     <lastmod>2022-02-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
