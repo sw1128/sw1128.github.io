@@ -4,6 +4,25 @@
   
     
     <entry>
+      <title>关于Github Pages不显示七牛云外链图片的解决方法</title>
+      <link href="/2022/02/15/use-pic/"/>
+      <url>/2022/02/15/use-pic/</url>
+      
+        <content type="html"><![CDATA[<h2 id="问题描述"><a href="#问题描述" class="headerlink" title="问题描述"></a>问题描述</h2><p>　　前段时间开始写博客，图片资源都存储在本地，写的多了难免会觉得臃肿，于是想着搭建图床，把图片资源存储在七牛云上，要使用的时候直接通过外链调用。搭完之后，在localhost显示图片没有问题，但是部署到Github Pages上后访问网站，图片却显示不出来，通过添加<code>&lt;meta name=&quot;referrer&quot; content=&quot;no-referrer&quot;/&gt;</code>也不起作用。</p><h2 id="原因"><a href="#原因" class="headerlink" title="原因"></a>原因</h2><p>　　七牛云图片外链使用的是http协议，而Github Pages使用的是https协议，导致读取失败。</p><center>七牛云👇</center><p><img src="https://s2.loli.net/2022/02/15/EFvV4GDuJUT5A1q.png" alt="image.png"></p><center>Github Pages👇</center><p><img src="https://s2.loli.net/2022/02/15/NfHz2ZSmsTnvgO6.png" alt="image.png"></p><h2 id="解决方法"><a href="#解决方法" class="headerlink" title="解决方法"></a>解决方法</h2><p>　　使用<a href="https://sm.ms/">SM.MS</a>搭建图床，5G的免费空间应该也够用了。</p><h2 id="图片正常显示，问题解决"><a href="#图片正常显示，问题解决" class="headerlink" title="图片正常显示，问题解决"></a>图片正常显示，问题解决</h2>]]></content>
+      
+      
+      <categories>
+          
+          <category> Issues </category>
+          
+      </categories>
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>Butterfly主题配置——如何使用阿里矢量图标库</title>
       <link href="/2022/02/15/add-icon/"/>
       <url>/2022/02/15/add-icon/</url>
