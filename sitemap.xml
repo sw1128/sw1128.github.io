@@ -4,7 +4,7 @@
   <url>
     <loc>https://sw1128.github.io/2022/02/15/add-icon/</loc>
     
-    <lastmod>2022-02-14</lastmod>
+    <lastmod>2022-02-15</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -85,7 +85,7 @@
 
   <url>
     <loc>https://sw1128.github.io/</loc>
-    <lastmod>2022-02-14</lastmod>
+    <lastmod>2022-02-15</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
@@ -95,21 +95,21 @@
   
   <url>
     <loc>https://sw1128.github.io/categories/Vue/</loc>
-    <lastmod>2022-02-14</lastmod>
+    <lastmod>2022-02-15</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://sw1128.github.io/categories/butterfly/</loc>
-    <lastmod>2022-02-14</lastmod>
+    <lastmod>2022-02-15</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://sw1128.github.io/categories/Hexo/</loc>
-    <lastmod>2022-02-14</lastmod>
+    <lastmod>2022-02-15</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
