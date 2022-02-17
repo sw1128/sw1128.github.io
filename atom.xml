@@ -6,7 +6,7 @@
   <link href="https://sw1128.github.io/atom.xml" rel="self"/>
   
   <link href="https://sw1128.github.io/"/>
-  <updated>2022-02-16T08:47:57.506Z</updated>
+  <updated>2022-02-17T06:12:26.091Z</updated>
   <id>https://sw1128.github.io/</id>
   
   <author>
@@ -15,6 +15,29 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>el与data的两种写法</title>
+    <link href="https://sw1128.github.io/2022/02/17/el-and-data/"/>
+    <id>https://sw1128.github.io/2022/02/17/el-and-data/</id>
+    <published>2022-02-17T05:28:34.000Z</published>
+    <updated>2022-02-17T06:12:26.091Z</updated>
+    
+    <content type="html"><![CDATA[<h3 id=""><a href="#" class="headerlink" title=""></a><div class="note info flat"><p>el的两种写法</p></div></h3><h4 id="new-Vue时配置el属性"><a href="#new-Vue时配置el属性" class="headerlink" title="new Vue时配置el属性"></a><code>new Vue</code>时配置<code>el</code>属性</h4><figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">new Vue(&#123;</span><br><span class="line">    el:&#x27;#demo&#x27;, //第一种写法</span><br><span class="line">    data:&#123;</span><br><span class="line">        name:&#x27;zwhy&#x27;</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;)</span><br></pre></td></tr></table></figure><h4 id="mount-手动挂载"><a href="#mount-手动挂载" class="headerlink" title="$mount()手动挂载"></a><code>$mount()</code>手动挂载</h4><figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">vm.$mount(&#x27;#demo&#x27;)</span><br></pre></td></tr></table></figure><h3 id="-1"><a href="#-1" class="headerlink" title=""></a><div class="note info flat"><p>data的两种写法</p></div></h3><h4 id="对象式"><a href="#对象式" class="headerlink" title="对象式"></a>对象式</h4><figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">new Vue(&#123;</span><br><span class="line">    el:&#x27;#demo&#x27;,</span><br><span class="line">    data:&#123;</span><br><span class="line">        name:&#x27;zwhy&#x27;</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;)</span><br></pre></td></tr></table></figure><h4 id="函数式"><a href="#函数式" class="headerlink" title="函数式"></a>函数式</h4><figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">new Vue(&#123;</span><br><span class="line">    el:&#x27;#demo&#x27;,</span><br><span class="line">    data()&#123;</span><br><span class="line">        return&#123;</span><br><span class="line">            name:&#x27;zwhy&#x27;</span><br><span class="line">            &#125;</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;)</span><br></pre></td></tr></table></figure>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h3 id=&quot;&quot;&gt;&lt;a href=&quot;#&quot; class=&quot;headerlink&quot; title=&quot;&quot;&gt;&lt;/a&gt;&lt;div class=&quot;note info flat&quot;&gt;&lt;p&gt;el的两种写法&lt;/p&gt;
+&lt;/div&gt;&lt;/h3&gt;&lt;h4 id=&quot;new-Vue时配置el属性&quot;&gt;&lt;a href=</summary>
+      
+    
+    
+    
+    <category term="Vue" scheme="https://sw1128.github.io/categories/Vue/"/>
+    
+    
+  </entry>
   
   <entry>
     <title>关于Github Pages不显示七牛云外链图片的解决方法</title>
