@@ -4,6 +4,25 @@
   
     
     <entry>
+      <title>解决“当前线程不在单线程单元中,因此无法实例化 ActiveX 控件”的问题</title>
+      <link href="/2022/03/11/ActiveX/"/>
+      <url>/2022/03/11/ActiveX/</url>
+      
+        <content type="html"><![CDATA[<h2 id="问题描述"><a href="#问题描述" class="headerlink" title="问题描述"></a>问题描述</h2><p>当WinForm调用Windows Media Player播放器时，弹出以下错误：<br><img src="https://s2.loli.net/2022/03/11/4ftcdvAsVar57qm.png" alt="image.png"></p><h2 id="原因"><a href="#原因" class="headerlink" title="原因"></a>原因</h2><p>Framework运行COM组件时，为提高性能默认使用多线程，但有的COM组件不能使用多线程，否则就报错。</p><h2 id="解决方法"><a href="#解决方法" class="headerlink" title="解决方法"></a>解决方法</h2><p>创建一个新的线程时添加语句：<code>thread.SetApartmentState(ApartmentState.STA);</code><br><img src="https://s2.loli.net/2022/03/11/Q8OV5vPqbkeHNcm.png" alt="image.png"></p><h2 id=""><a href="#" class="headerlink" title=""></a><div class="note info flat"><p>什么是[STAThread]</p></div></h2><p><code>[STAThread]</code><br><code>STAThread</code>：Single Thread Apartment Thread.(单一线程单元线程)<br><code>[]</code>是用来表示Attributes<br><code>[STAThread]</code>指示应用程序的默认线程模型是单线程单元 (STA)。启动线程模型可设置为单线程单元或多线程单元。如果未对其进行设置，则该线程不被初始化。</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> C# </category>
+          
+      </categories>
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>绑定样式</title>
       <link href="/2022/02/26/style-binding/"/>
       <url>/2022/02/26/style-binding/</url>
